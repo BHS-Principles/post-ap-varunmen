@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        ".github": true,
+        "src": true,
+        "tests": true,
+        ".gitignore": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "node_modules":true,
+        ".vscode": true,
+        "code.js":false,
+        "style.css":false,
+        "applab-index.html":true,
+        "README_appLab.md":false,
+        "public/applab":true,
+        "public/img/i":true,
+        "public/css/c":true,
+        ".devcontainer":true
+    },
+    "liveServer.settings.multiRootWorkspaceName": "nodejs-applab",
+}

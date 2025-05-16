@@ -1,0 +1,21 @@
+{
+    "name": "node-appLab",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "settings": {
+      "extensions.autoUpdate": true
+    },
+    "extensions": [
+      "xabikos.javascriptsnippets",
+      "ritwickdey.liveserver",
+      "ms-vscode.live-server",
+      "dbaeumer.vscode-eslint",
+      "github.vscode-github-actions",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "donjayamanne.githistory",
+      "christian-kohler.npm-intellisense",
+      "esbenp.prettier-vscode",
+      "aeschli.vscode-css-formatter"
+    ],
+    "postCreateCommand": "npm install"
+  }
+  

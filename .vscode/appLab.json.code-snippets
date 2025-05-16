@@ -1,0 +1,55 @@
+{
+    "AppLab onEvent": {
+        "prefix": "onEvent",
+        "body": [
+            "onEvent(\"${1:id}\", \"${2:event}\", function() {",
+            "  ${3:// code}",
+            "});"
+        ],
+        "description": "AppLab onEvent function"
+    },
+    "AppLab setProperty": {
+        "prefix": "setProperty",
+        "body": [
+            "setProperty(\"${1:id}\", \"${2:property}\", ${3:value});"
+        ],
+        "description": "AppLab setProperty function"
+    },
+	"AppLab getProperty": {
+        "prefix": "getProperty",
+        "body": [
+            "getProperty(\"${1:id}\", \"${2:property}\");"
+        ],
+        "description": "AppLab getProperty function"
+    },
+	"AppLab button": {
+        "prefix": "button",
+        "body": [
+            "button(\"${1:id}\", \"${2:text}\");"
+        ],
+        "description": "AppLab create a button"
+    },
+	"AppLab label": {
+        "prefix": "label",
+        "body": [
+            "label(\"${1:id}\", \"${2:text}\");"
+        ],
+        "description": "AppLab create some text"
+    },
+	"AppLab setParent": {
+        "prefix": "setParent",
+        "body": [
+            "setParent(\"${1:child-id}\", \"${2:parent-id}\");"
+        ],
+        "description": "AppLab put an element into another"
+    },
+	{
+	"AppLab setPosition": {
+		"prefix": "setPosition",
+		"body": [
+			"setPosition(\"${1:id}\", ${2:x}, ${3:y}, ${4:width}, ${5:height});"
+		],
+		"description": "AppLab setPosition and dimensions function (e.g., setPosition(\"button1\", 100, 200, 50, 30))"
+	}
+	
+}
